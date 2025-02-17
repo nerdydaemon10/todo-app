@@ -1,0 +1,19 @@
+<main class="h-full flex flex-col justify-center items-center select-none before:absolute before:top-0 before:start-1/2 before:bg-[url('https://preline.co/assets/svg/examples-dark/squared-bg-element.svg')] before:bg-no-repeat before:bg-top before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
+  <section>
+    <h1 class="text-3xl font-bold">Login</h1>
+    <p class="opacity-[0.65] mb-2">Welcome back, login now to proceed!</p>
+    <form class="flex flex-col gap-3">
+      <div class="flex flex-col gap-2">
+        <label for="username" class="opacity-[0.90]">Username</label>
+        <input pInputText type="text" id="username" placeholder="nerdydaemon10">
+      </div>
+      <div class="flex flex-col justify-start gap-2">
+        <label for="password" class="opacity-[0.90]">Password</label>
+        <input pInputText type="text" id="password" placeholder="******">
+      </div>
+      <p-button fluid>Login</p-button>
+    </form>
+    <app-divider text="OR" />
+    <p-button severity="secondary" fluid>Create an account</p-button>
+  </section>
+</main>
